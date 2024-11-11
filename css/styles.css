@@ -97,13 +97,21 @@ p, ul, table {
 .gallery img {
     width: 100%;
     height: auto;
-    max-width: 700px;
-    aspect-ratio: 16 / 9; /* Menambahkan rasio 16:9 secara otomatis */
-    object-fit: cover; /* Agar gambar tetap terpotong dengan proporsional */
+    max-width: 500px; /* Sesuaikan ukuran maksimal */
+    aspect-ratio: 9 / 16; /* Ganti rasio menjadi 9:16 */
+    object-fit: cover;
     cursor: pointer;
     border-radius: 5px;
     border: 2px solid #444;
     transition: transform 0.3s ease;
+}
+
+.gameplay-clip video {
+    width: 100%;
+    max-width: 500px; /* Sesuaikan ukuran maksimal */
+    aspect-ratio: 9 / 16; /* Ganti rasio menjadi 9:16 */
+    border-radius: 8px;
+    border: 2px solid #444;
 }
 
 .arrow-container {
