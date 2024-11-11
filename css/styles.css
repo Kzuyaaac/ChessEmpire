@@ -108,7 +108,7 @@ p, ul, table {
 
 .gameplay-clip video {
     width: 100%;
-    max-width: 500px; /* Sesuaikan ukuran maksimal */
+    max-width: 450px; /* Sesuaikan ukuran maksimal */
     aspect-ratio: 9 / 16; /* Ganti rasio menjadi 9:16 */
     border-radius: 8px;
     border: 2px solid #444;
